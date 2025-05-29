@@ -1,4 +1,4 @@
-# SE4GEO
+# GEO
 This project repository is developed for the course "Geospatial processing".
 
 ## Scrum Platform
@@ -6,11 +6,11 @@ This project repository is developed for the course "Geospatial processing".
  We use JIRA. [Click here to Check.](https://mail-team-padca5iq.atlassian.net/jira/software/projects/SE4G/list)
 
 
-# SE4GEO Enhanced: Interactive GIS System for Disaster Risk Management
+GEO Enhanced: Interactive GIS System for Disaster Risk Management
 
-An improved interactive GIS application built with Python, PostgreSQL/PostGIS, Folium, Plotly, and Jupyter Widgets. This tool supports **dynamic disaster risk visualization**, **interactive filtering**, and **zoom-sensitive analytics**, focused on **flood and landslide data**.
+An interactive GIS application built with Python, PostgreSQL/PostGIS, Folium, Plotly, and Jupyter Widgets. This tool supports **dynamic disaster risk visualization**, **interactive filtering**, and **zoom-sensitive analytics**, focused on **flood and landslide data**.
 
-GitHub: [https://github.com/Junjie-Mu/SE4GEO](https://github.com/Junjie-Mu/SE4GEO)
+GitHub: [https://github.com/Poldark-TW/Geospatial-processing](https://github.com/Poldark-TW/Geospatial-processing)
 
 ---
 
@@ -40,8 +40,8 @@ More reliable geocoding, graceful fallbacks for OSM ID/name mismatches, and real
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Junjie-Mu/SE4GEO.git
-cd SE4GEO
+git clone https://github.com/Poldark-TW/Geospatial-processing.git
+cd Geospatial-processing
 
 ### 2. Setup Environment Variables
 - Create a .env file in backend/database/.env
