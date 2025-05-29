@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>SE4G</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+    <div id="intro">
+        <h1>2024<br/>
+            SE4GEO Project</h1>
+        <p>An interactive application to support disaster management activities<br/>
+            during the prevention and preparedness phases</p>
+        <ul class="actions">
+            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">SE4G</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li id="workflow" style="display: none"><a href="workflow.html">Generic Page</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="https://github.com/Junjie-Mu/SE4GEO" class="icon brands fa-github"><span
+                    class="label">GitHub</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Featured Post -->
+        <section class="post">
+            <article class="post featured">
+                <header class="major">
+                    <span class="date">June, 2024</span>
+                    <h2><a href="#">Propose</a></h2>
+                    <p style="text-align: left">
+                        In addressing multi-hazard disasters and climate change factors, the adaptive risk management
+                        strategies need to be built under the visualized information. Therefore, the Web GIS platform
+                        serves
+                        as a vital tool for accessing geospatial data, maps, reports, and risk indicators related to the
+                        Italian Landslide Inventory, national hazard maps, and risk assessments.
+                    </p>
+                    <p style="text-align: left">
+                        The larger amount of analyzed information on controversial natural hazards connects to a
+                        strategic
+                        web service for the Italian Institute for Environmental Protection and Research (ISPRA) and more
+                        generally for a Public Administration (PA).
+                    </p>
+                    <p style="text-align: left">
+                        Given the importance of natural disaster education in both geography curriculum and education
+                        for
+                        sustainable development (ESD), leveraging Web GIS for dynamic monitoring, forecasting, and early
+                        warning of disasters has emerged as a viable approach.
+                    </p>
+                </header>
+            </article>
+        </section>
+        <section class="post">
+            <header class="major">
+                <h2>Run the application</h2>
+                <h3>Step 1</h3>
+            </header>
+            <p style="text-align: left">Everything will be quick, following the graphical interface and text!
+                </br>Let'sbegin now. Make sure your PostgreSQL is installed and running. Enter your database's
+                default
+                connection name, username, password, and host (usually 'localhost') below.</p>
+            <form method="post" id="envForm">
+                <div class="fields">
+                    <div class="field">
+                        <label for="dbName" style="font-size: 1rem">Database name</label>
+                        <input type="text" name="dbName" id="dbName" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="env_user" style="font-size: 1rem">User</label>
+                        <input type="text" name="env_user" id="env_user" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="env_password" style="font-size: 1rem">Password</label>
+                        <input type="text" name="env_password" id="env_password" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="env_host" style="font-size: 1rem">Host</label>
+                        <input type="text" name="env_host" id="env_host" required/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <ul class="actions fit">
+                            <li><input style="font-size: 1rem" class="button fit" type="submit" value="SET"/></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <ul class="actions stacked">
+                            <li><label>
+                                <input id="testDbConn" style="font-size: 1rem" class="button fit"
+                                       value="Test Database Connection"/>
+                            </label></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+
+
+        </section>
+
+        <section class="post">
+            <header class="major">
+                <h2>Creat the user table</h2>
+                <h3>Step 2</br></h3>
+            </header>
+            <p style="text-align: center">Creat the user table to log in and register.</p>
+            <ul class="actions special">
+                <li id="creat-user"><a class="button primary large">Creat</a></li>
+            </ul>
+        </section>
+        <section class="post">
+            <header class="major">
+                <h2>Login / Register</h2>
+                <h3>Step 3</br></h3>
+            </header>
+            <p style="text-align: center">Log in to continue.</p>
+            <ul class="actions special">
+                <li id="open-btn"><a class="button primary large">Log in now</a></li>
+            </ul>
+        </section>
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="footer" class="footer" style="display: none">
+        <section>
+            <span id="close-btn" class="close-btn">&times;</span>
+            <form method="post" id="loginForm">
+                <div class="fields">
+                    <div class="field">
+                        <label for="username">Name</label>
+                        <input type="text" name="username" id="username" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password" required/>
+                    </div>
+                </div>
+                <ul class="actions fit ">
+                    <li><input type="submit" value="Log in"/></li>
+                </ul>
+                <p style="margin: 0 0 0 0; font-size: 1rem">Do not have an account yet?</p>
+                <ul class="actions ">
+                    <li id="open-register"><a class="button ">Register now</a></li>
+                </ul>
+            </form>
+        </section>
+    </footer>
+    <footer class="footer" id="register" style="display: none">
+        <section>
+            <span id="close-register" class="close-btn">&times;</span>
+            <h2>Creat a new account</h2>
+            <form method="post" id="registerForm">
+                <div class="fields">
+                    <div class="field">
+                        <label for="username">Name</label>
+                        <input type="text" name="username" id="username_register" required/>
+                    </div>
+                    <div class="field" style="margin-top: 1rem">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password_register" required/>
+                    </div>
+                </div>
+                <ul class="actions fit ">
+                    <li><input type="submit" value="Register"/></li>
+                </ul>
+            </form>
+        </section>
+    </footer>
+
+    <!-- Copyright -->
+    <div id="copyright">
+        <ul>
+            <li>&copy; JUNJIE MU</li>
+            <li>Polimi-se4g-class-2024</li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/logRegister.js"></script>
+</body>
+</html>
